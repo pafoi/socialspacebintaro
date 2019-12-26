@@ -409,7 +409,50 @@ h6,
   color: #c0a375;
 }
 .scrollToTop_wraper {
-  opacity: 0 !important;
+  display: none;
+}
+.form-control {
+  padding: 0.9rem;
+}
+.align-center {
+  text-align: center;
+}
+.col,
+.col-12,
+.col-auto {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.col {
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  max-width: 100%;
+}
+.col-auto {
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  width: auto;
+  max-width: none;
+}
+form a.btn {
+  margin: 0;
+}
+.mx-auto {
+  margin: 0 auto;
+}
+section.custom-form .container,
+section.form .container {
+  display: flex;
+}
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
 }
 .extCountdown1 .number,
 .extCountdown2 .number {
@@ -808,9 +851,6 @@ h6,
 #menu-13 .dropdown-item[aria-expanded="true"] {
   color: #c0a375!important;
 }
-#form1-1h .form-control-label {
-  color: #232323;
-}
 #menu-13 .hide-buttons .nav-btn {
   display: none !important;
 }
@@ -875,9 +915,6 @@ h6,
 #features1-h .striped .mbr-cards-col:nth-child(2n+1) {
   background-color: #2e2e2e;
 }
-#form1-1i .form-control-label {
-  color: #232323;
-}
 #menu-i .hide-buttons .nav-btn {
   display: none !important;
 }
@@ -938,9 +975,6 @@ h6,
 #menu-i .link[aria-expanded="true"],
 #menu-i .dropdown-item[aria-expanded="true"] {
   color: #c0a375!important;
-}
-#form1-1j .form-control-label {
-  color: #232323;
 }
 #menu-o .hide-buttons .nav-btn {
   display: none !important;
@@ -1009,9 +1043,6 @@ h6,
 }
 #header3-1g H3 {
   font-size: 48px;
-}
-#form1-1k .form-control-label {
-  color: #232323;
 }
 #menu-s .hide-buttons .nav-btn {
   display: none !important;
@@ -1084,12 +1115,6 @@ h6,
   color: #fff;
 }
 #msg-box2-z .mbr-section-subtitle {
-  color: #a0a0a0;
-}
-#form2-11 .mbr-section-title {
-  color: #fff;
-}
-#form2-11 .mbr-section-subtitle {
   color: #a0a0a0;
 }
 #menu-13 .hide-buttons .nav-btn {
@@ -1179,7 +1204,4 @@ h6,
 }
 #msg-box8-1f .lead UL {
   color: #ffffff;
-}
-#form1-1l .form-control-label {
-  color: #232323;
 }
